@@ -1,0 +1,51 @@
+body {
+    color: darkred;
+    background-color: #fef2d0;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.link-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link-text {
+    text-decoration: none;
+    color: darkred;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.link-text:hover {
+    color: #ff0000;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: darkred;
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.contents {
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 5px solid darkred;
+}
+
+ul li,
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
